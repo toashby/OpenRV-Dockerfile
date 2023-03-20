@@ -41,7 +41,7 @@ cmake --build cmake-build --target rv
 ## 8. Install OpenRV
 Change dir to the cmake-build and run cmake install
 ```
-cd ./cmake-build
+cd ./cmake
 cmake install
 ```
 All the built files will be configured and copied into the image's `/rv/openrv` directory
