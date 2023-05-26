@@ -47,3 +47,5 @@ make -j && \
 make install
 
 RUN yum -y install meson
+
+ADD build.sh /build.sh

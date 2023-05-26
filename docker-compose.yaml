@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  openrv:
+    image: openrv-auto
+    build: .
+    volumes:
+      - type: bind
+        source: ./app
+        target: /app
+      - type: bind
+      # Edit this source value to point to your local Qt install
+        source: /users/thomasa/Qt/5.15.2/gcc_64
+        target: /qt_root
+    command: ["/build.sh"]
