@@ -5,8 +5,7 @@ Build OpenRV with one command. OpenRV from https://github.com/AcademySoftwareFou
 ## 1. Clone this repository
 ## 2. Download qt5.15.2 libs
 From page https://login.qt.io/login create a free account or sign-in. In download section select qt5.15.2 for linux. 
-The package is pretty heavy and it includes QtCreator, source and gcc compiled libs (the most important part for us). 
-Move the installed qt5.15.2 directory into `OpenRV-Dockerfile` one.
+The package is pretty heavy and it includes QtCreator, source and gcc compiled libs (the most important part for us).
 
 ## 3. Install Docker and docker-compose
 https://docs.docker.com/engine/install
